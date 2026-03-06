@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    h2 {
+        color: #333;
+    }
+    form {
+        background-color: #fff;
+        width:50%;
+        padding: 5px;
+        border-radius: 1px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        
+}
+    input[type="text"], select {
+        width: 90%;
+        margin:5px;
+        padding: 2px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+}
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+    <title>Calculator</title>
+</head>
+<body>
+<h2>Calculator</h2>
+<form method="post" action="calculator_result.jsp">
+    <input type="text" name="num1" placeholder="Enter a Number" required> <br><br>
+    <input type="text" name="num2" placeholder="Enter a Number" required> <br><br>
+    <select name="operation"> 
+        <option value="add">Add</option>
+        <option value="sub">Sub</option>
+        <option value="mul">Mul</option>
+        <option value="div">Div</option>
+    </select><br><br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
+
