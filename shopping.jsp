@@ -48,7 +48,7 @@ Item3: <br>
 
 <br><br>
 
-<input type="submit" value="Calculate Total">
+<input type="submit" value="Buy Now">
 
 </form>
 
